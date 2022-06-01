@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    height: 100px;
+}
+
+body{
+    background-image:url("resim.webp") ;
+    background-size: cover;
+}
+
+/*header start */
+header{
+    height: 100px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+   }
+
+header nav{
+    align-items: center;
+    display:grid;
+    justify-content:center;
+    height: 100%;
+}
+
+header nav .logo a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+}
+
+.container .menu{
+    padding-top: 50px;
+}
+.container .logo{
+    font-size: 60px;
+    text-align: center;
+}
+
+.container .menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    column-gap: 16px;
+}
+.container .menu a{
+    background-color: white;
+    padding: 20px;
+    width: 280px;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 56px;
+    transition: all .25s ease-in;
+}
+.container .menu a:hover{
+    background-color: #0ba2c0;
+    color: white;
+}
+.content{
+    color: white;
+    height: calc(100vh - 100px);
+    padding-top: 150px;
+}
+.content h1{
+    font-size: 30px;
+    text-align: center;
+}
+.content p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 32px;
+}
+.content h2{
+    font-size: 26px;
+    text-align: center;
+}
+.content .links{
+    display:grid;
+    justify-content: center;
+    margin-top: 48px;
+    column-gap: 16px;
+}
+.content .links a{
+    width: 100px;
+    color:white;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: all .25s ease-in;
+ }  
+
+
+
